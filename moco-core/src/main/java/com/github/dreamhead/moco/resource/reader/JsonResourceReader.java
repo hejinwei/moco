@@ -66,11 +66,13 @@ public final class JsonResourceReader implements ContentResourceReader {
         cfg.setObjectWrapper(new DefaultObjectWrapperBuilder(CURRENT_VERSION).build());
         cfg.setDefaultEncoding(charset.name());
         cfg.setTemplateLoader(templateLoader);
+        cfg.setClassicCompatible(true);
         return cfg;
     }
 
     @Override
     public MessageContent readFor(final Optional<? extends Request> request) {
+//        return MessageContent.content().withContent(toJson(pojo)).build();
 
         if (!request.isPresent()) {
             throw new IllegalStateException("Request is required to render template");
