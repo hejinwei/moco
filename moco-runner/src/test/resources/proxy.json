@@ -1,0 +1,65 @@
+[
+    {
+        "request" :
+        {
+            "uri" : "/target"
+        },
+        "response" :
+        {
+            "text" : "proxy_target"
+        }
+    },
+    {
+        "request" :
+        {
+            "uri" : "/proxy"
+        },
+        "response" :
+        {
+            "proxy" : "http://localhost:12306/target"
+        }
+    },
+    {
+        "request" :
+        {
+            "uri" : "/failover"
+        },
+        "response" :
+        {
+            "proxy" :
+            {
+                "url" : "http://localhost:12306/unknown",
+                "failover" : "src/test/resources/standalone_failover.json"
+            }
+        }
+    },
+    {
+        "request" :
+        {
+            "uri" : "/playback"
+        },
+        "response" :
+        {
+            "proxy" :
+            {
+                "url" : "http://localhost:12306/unknown",
+                "playback" : "src/test/resources/standalone_failover.json"
+            }
+        }
+    },
+    {
+        "request" :
+        {
+            "uri" : "/template-url"
+        },
+        "response" :
+        {
+            "proxy" :
+            {
+                "url" : {
+                    "template": "http://localhost:12306/${req.queries['foo']}"
+                }
+            }
+        }
+    }
+]
