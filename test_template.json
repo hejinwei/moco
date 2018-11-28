@@ -1,0 +1,12 @@
+[
+{
+    "request": {
+        "uri": "/moco/template"
+    },
+    "response": {
+        "text": {
+            "template": "你好${req.queries['aaa']}"
+        }
+    }
+}
+]

@@ -1,0 +1,16 @@
+[
+ 
+    {
+        "include" : "rzb.json"
+    },
+	{
+		"include" : "test_template.json"
+	},
+	{
+		"include" : "tianxing.json"
+	},
+  {
+    "include" : "ocr.json"
+  }
+
+]

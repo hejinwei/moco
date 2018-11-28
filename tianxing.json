@@ -1,0 +1,432 @@
+[
+{
+  "request" :
+    {
+      "uri" : "/moco/tianxing/accessToken",
+	  "method": "post"
+    },
+
+  "response" :
+    {
+      "json" : {"success":true,"data":{"id":"5ea4541f9a494855a66b763c701a0f2c","account":"jiedai","accessToken":"6d04ee7ba0024cb0951072ede338c7a7","expireTime":14607127057890}}
+    }
+},
+
+{
+  "request" :
+    {
+      "uri" : "/moco/tianxing/3element",
+	  "method": "get"
+    },
+
+  "response" :
+    {
+      "json" : {"success":true,"data":{"name":"陈进","identityCard":"540322198501230011","accountNO":"6222020211174562027","checkStatus":"SAME","result":"验证成功"}}
+    }
+},
+
+{
+  "request" :
+    {
+      "uri" : "/moco/tianxing/4element",
+	  "method": "get"
+    },
+
+  "response" :
+    {
+      "json" : {"success":true,"data":{"name":"陈进","identityCard":"540322198501230011","accountNO":"6222020211174562027","bankPreMobile":"15812345678","checkStatus":"SAME","result":"验证成功"}}
+    }
+},
+
+{
+  "request" :
+    {
+      "uri" : "/moco/tianxing/lawsuit/zxgg",
+	  "method": "get"
+    },
+
+  "response" :
+    {
+      "json" : {
+		"success": true,
+		"data": {
+			"TotalRecords": "2",
+			"dataType": "zxgg",
+			"status": "EXSIT",
+			"performAnnouncements": [
+            {
+                "id": "AVKEnFlLD_JCAiIDtQZT@AVQEw-tKj6HXYk2ip_5i",
+                "time": "20130329120000",
+                "content": "<p><p><p>案件详细信息...",
+                "status": "1",
+                "name": "严旭东",
+                "caseNo": "立案日期：",
+                "idcardNo": "5116211987****7732",
+                "execMoney": "0.0"
+            },
+            {
+                "id": "69859038@AVQEw-tKj6HXYk2ip_5i",
+                "time": "20130329120000",
+                "status": "0",
+                "name": "严旭东",
+                "courtName": "重庆市大渡口区人民法院",
+                "caseNo": "(2013)渡法民执字第00410号",
+                "caseState": "已结案",
+                "idcardNo": "511621198701157732",
+                "execMoney": "50500.0"
+            }
+			]
+		}
+		}
+    }
+},
+
+{
+  "request" :
+    {
+      "uri" : "/moco/tianxing/lawsuit/all",
+	  "method": "get"
+    },
+
+  "response" :
+    {
+      "json" : {
+    "success": true,
+    "data": {
+        "ktggTotalRecords": "0",
+        "cpwsTotalRecords": "1",
+        "zxggTotalRecords": "21",
+        "sxggTotalRecords": "0",
+        "fyggTotalRecords": "0",
+        "wdhmdTotalRecords": "0",
+        "ajlcTotalRecords": "0",
+        "TotalRecords": "23",
+        "totalPageNum": "1",
+        "currentPageNum": "1",
+        "pageSize": "20",
+        "status": "EXSIT",
+        "aseFlows": [],
+        "courtAnnouncements": [],
+        "dishonestyAnnouncements": [],
+        "judgementDocuments": [
+            {
+                "id": "f1b6e006-69c7-4280-91f4-199c4ea75e58@AVQx-_mixmtoQNN9IXNy",
+                "time": "20140430120000",
+                "caseType": "民事裁定书",
+                "content": "周文明与赵小萍、赵英东等买卖合同纠纷一审民...",
+                "courtName": "诸暨市人民法院",
+                "title": "周文明与赵小萍、赵英东等买卖合同纠纷一审民事裁定书",
+                "caseNo": "（2014）绍诸商初字第929号",
+                "partiesLitigants": []
+            }
+        ],
+        "netLoanBlacklists": [],
+        "openCourtSessionAnns": [],
+        "performAnnouncements": [
+            {
+                "id": "114546959@AVQx-_mixmtoQNN9IXNy",
+                "time": "20160110120000",
+                "content": "赵英东",
+                "status": "1",
+                "name": "赵英东",
+                "courtName": "诸暨市人民法院",
+                "caseNo": "(2016)浙0681执457号",
+                "caseState": "执行中",
+                "idcardNo": "33062519660****1854",
+                "execMoney": "6030000.0"
+            },
+            {
+                "id": "96880715@AVQx-_mixmtoQNN9IXNy",
+                "time": "20141231120000",
+                "content": "赵英东",
+                "status": "0",
+                "name": "赵英东",
+                "courtName": "诸暨市人民法院",
+                "caseNo": "(2015)绍诸执民字第00548号",
+                "caseState": "执行中",
+                "idcardNo": "330625196604161854",
+                "execMoney": "4500000.0"
+            },
+            {
+                "id": "81283616@AVQx-_mixmtoQNN9IXNy",
+                "time": "20140506120000",
+                "content": "赵英东",
+                "status": "0",
+                "name": "赵英东",
+                "courtName": "江苏省无锡市中级人民法院",
+                "caseNo": "(2014)锡执字第00192号",
+                "caseState": "执行中",
+                "idcardNo": "330625196604161854",
+                "execMoney": "1.0970559E7"
+            },
+            {
+                "id": "89544721@AVQx-_mixmtoQNN9IXNy",
+                "time": "20140506120000",
+                "content": "赵英东",
+                "status": "0",
+                "name": "赵英东",
+                "courtName": "江苏省无锡市中级人民法院",
+                "caseNo": "(2014)锡执字第00192号",
+                "caseState": "执行中",
+                "idcardNo": "330625196604161854",
+                "execMoney": "1.0970559E7"
+            },
+            {
+                "id": "74404142@AVQx-_mixmtoQNN9IXNy",
+                "time": "20130814120000",
+                "content": "赵英东",
+                "status": "0",
+                "name": "赵英东",
+                "courtName": "诸暨市人民法院",
+                "caseNo": "(2013)绍诸执民字第06909号",
+                "caseState": "执行中",
+                "idcardNo": "330625196604161854",
+                "execMoney": "5000000.0"
+            },
+            {
+                "id": "87545862@AVQx-_mixmtoQNN9IXNy",
+                "time": "20130814120000",
+                "content": "赵英东",
+                "status": "0",
+                "name": "赵英东",
+                "courtName": "诸暨市人民法院",
+                "caseNo": "(2013)绍诸执民字第06909号",
+                "caseState": "已结案",
+                "idcardNo": "330625196604161854",
+                "execMoney": "5000000.0"
+            },
+            {
+                "id": "67008357@AVQx-_mixmtoQNN9IXNy",
+                "time": "20130814120000",
+                "content": "赵英东",
+                "status": "0",
+                "name": "赵英东",
+                "courtName": "诸暨市人民法院",
+                "caseNo": "(2013)绍诸执民字第06910号",
+                "caseState": "已结案",
+                "idcardNo": "330625196604161854",
+                "execMoney": "37325.0"
+            },
+            {
+                "id": "87545832@AVQx-_mixmtoQNN9IXNy",
+                "time": "20130814120000",
+                "content": "赵英东",
+                "status": "0",
+                "name": "赵英东",
+                "courtName": "诸暨市人民法院",
+                "caseNo": "(2013)绍诸执民字第06910号",
+                "caseState": "已结案",
+                "idcardNo": "330625196604161854",
+                "execMoney": "37325.0"
+            },
+            {
+                "id": "78740723@AVQx-_mixmtoQNN9IXNy",
+                "time": "20130708120000",
+                "content": "赵英东",
+                "status": "0",
+                "name": "赵英东",
+                "courtName": "杭州市拱墅区人民法院",
+                "caseNo": "(2013)杭拱执民字第02043号",
+                "caseState": "执行中",
+                "idcardNo": "330625196604161854",
+                "execMoney": "1.4303279E7"
+            },
+            {
+                "id": "79919536@AVQx-_mixmtoQNN9IXNy",
+                "time": "20130708120000",
+                "content": "赵英东",
+                "status": "0",
+                "name": "赵英东",
+                "courtName": "杭州市拱墅区人民法院",
+                "caseNo": "(2013)杭拱执民字第02043号",
+                "caseState": "已结案",
+                "idcardNo": "330625196604161854",
+                "execMoney": "1.4303279E7"
+            },
+            {
+                "id": "87333351@AVQx-_mixmtoQNN9IXNy",
+                "time": "20130708120000",
+                "content": "赵英东",
+                "status": "0",
+                "name": "赵英东",
+                "courtName": "杭州市拱墅区人民法院",
+                "caseNo": "(2013)杭拱执民字第02043号",
+                "caseState": "已结案",
+                "idcardNo": "330625196604161854",
+                "execMoney": "1.4303279E7"
+            },
+            {
+                "id": "79919456@AVQx-_mixmtoQNN9IXNy",
+                "time": "20130513120000",
+                "content": "赵英东",
+                "status": "0",
+                "name": "赵英东",
+                "courtName": "杭州市拱墅区人民法院",
+                "caseNo": "(2013)杭拱执民字第01425号",
+                "caseState": "已结案",
+                "idcardNo": "330625196604161854",
+                "execMoney": "2040000.0"
+            },
+            {
+                "id": "78740671@AVQx-_mixmtoQNN9IXNy",
+                "time": "20130513120000",
+                "content": "赵英东",
+                "status": "0",
+                "name": "赵英东",
+                "courtName": "杭州市拱墅区人民法院",
+                "caseNo": "(2013)杭拱执民字第01425号",
+                "caseState": "执行中",
+                "idcardNo": "330625196604161854",
+                "execMoney": "2040000.0"
+            },
+            {
+                "id": "87080811@AVQx-_mixmtoQNN9IXNy",
+                "time": "20130513120000",
+                "content": "赵英东",
+                "status": "0",
+                "name": "赵英东",
+                "courtName": "杭州市拱墅区人民法院",
+                "caseNo": "(2013)杭拱执民字第01425号",
+                "caseState": "已结案",
+                "idcardNo": "330625196604161854",
+                "execMoney": "2040000.0"
+            },
+            {
+                "id": "32475655@AVQx-_mixmtoQNN9IXNy",
+                "time": "20100315120000",
+                "content": "赵英东",
+                "status": "0",
+                "name": "赵英东",
+                "courtName": "诸暨市人民法院",
+                "caseNo": "(2010)绍诸执民字第01972号",
+                "caseState": "已结案",
+                "idcardNo": "330625196604161854",
+                "execMoney": "3200.0"
+            },
+            {
+                "id": "32475169@AVQx-_mixmtoQNN9IXNy",
+                "time": "20100315120000",
+                "content": "赵英东",
+                "status": "0",
+                "name": "赵英东",
+                "courtName": "诸暨市人民法院",
+                "caseNo": "(2010)绍诸执民字第01971号",
+                "caseState": "已结案",
+                "idcardNo": "330625196604161854",
+                "execMoney": "115000.0"
+            },
+            {
+                "id": "9585488@AVQx-_mixmtoQNN9IXNy",
+                "time": "20090104120000",
+                "content": "赵英东 ",
+                "status": "0",
+                "name": "赵英东 ",
+                "courtName": "无锡市南长区人民法院",
+                "caseNo": "(2009)南执字第00102号",
+                "caseState": "已结案",
+                "idcardNo": "330625196604161854",
+                "execMoney": "9325.0"
+            },
+            {
+                "id": "9252448@AVQx-_mixmtoQNN9IXNy",
+                "time": "20080414120000",
+                "content": "赵英东",
+                "status": "0",
+                "name": "赵英东",
+                "courtName": "诸暨市人民法院",
+                "caseNo": "(2008)诸执字第01673号",
+                "caseState": "已结案",
+                "idcardNo": "330625196604161854",
+                "execMoney": "80900.0"
+            }
+        ]
+    }
+}
+    }
+},
+
+{
+  "request" :
+    {
+      "uri" : "/moco/tianxing/lawsuit/all1",
+	  "method": "get"
+    },
+
+  "response" :
+    {
+      "json" : {
+    "success": true,
+    "data": {
+        "ktggTotalRecords": "0",
+        "cpwsTotalRecords": "0",
+        "zxggTotalRecords": "1",
+        "sxggTotalRecords": "0",
+        "fyggTotalRecords": "0",
+        "wdhmdTotalRecords": "0",
+        "ajlcTotalRecords": "0",
+        "TotalRecords": "1",
+        "totalPageNum": "1",
+        "currentPageNum": "1",
+        "pageSize": "20",
+        "status": "EXSIT",
+        "aseFlows": [],
+        "courtAnnouncements": [],
+        "dishonestyAnnouncements": [],
+        "judgementDocuments": [],
+        "netLoanBlacklists": [],
+        "openCourtSessionAnns": [],
+        "performAnnouncements": [
+            {
+                "id": "96433377@AVQnK-ULG8Go10sYtWJc",
+                "time": "20141030120000",
+                "content": "冉卫星",
+                "status": "0",
+                "name": "冉卫星",
+                "courtName": "重庆市大渡口区人民法院",
+                "caseNo": "(2014)渡法民执字第00802号",
+                "caseState": "执行中",
+                "idcardNo": "500232198309026951",
+                "execMoney": "3200.06"
+            }
+        ]
+    }
+}
+    }
+},
+
+{
+  "request" :
+    {
+      "uri" : "/moco/tianxing/lawsuit/all2",
+	  "method": "get"
+    },
+
+  "response" :
+    {
+      "json" : {
+    "success": true,
+    "data": {
+        "ktggTotalRecords": "0",
+        "cpwsTotalRecords": "0",
+        "zxggTotalRecords": "0",
+        "sxggTotalRecords": "0",
+        "fyggTotalRecords": "0",
+        "wdhmdTotalRecords": "0",
+        "ajlcTotalRecords": "0",
+        "TotalRecords": "0",
+        "totalPageNum": "0",
+        "currentPageNum": "1",
+        "pageSize": "20",
+        "status": "EXSIT",
+        "aseFlows": [],
+        "courtAnnouncements": [],
+        "dishonestyAnnouncements": [],
+        "judgementDocuments": [],
+        "netLoanBlacklists": [],
+        "openCourtSessionAnns": [],
+        "performAnnouncements": []
+    }
+}
+    }
+}
+]

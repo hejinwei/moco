@@ -1,0 +1,37 @@
+[
+{
+  "request" :
+    {
+      "uri" : "/moco/rzb",
+	  "method": "get"
+    },
+
+  "response" :
+    {
+      "json" : 
+	  {
+		"ResponseCode": 100,
+		"ResponseText": "成功",
+		"Identifier": {
+		"Address": null,
+		"BirthPlace": null,
+		"Birthday": "1993-02-03",
+		"Company": null,
+		"Education": null,
+		"FormerName": null,
+		"IDNumber": "500231199302033399",
+		"IsQueryCitizen": false,
+		"MaritalStatus": null,
+		"Name": "${req.queries['aaa']}",
+		"Nation": null,
+		"NativePlace": null,
+		"Photo": "",
+		"QueryTime": null,
+		"Result": "一致",
+		"Sex": "男性"
+	},
+	"RawXml": null
+}
+    }
+}
+]

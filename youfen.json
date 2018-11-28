@@ -1,0 +1,50 @@
+[
+{
+  "request" :
+    {
+      "uri" : "/moco/youfen",
+	  "method": "get"
+    },
+
+  "response" :
+    {
+      "json" :
+	  {
+	"resCode": "0000",
+	"resMsg": "提交成功",
+	"data": {
+		"statusCode": "2012",
+		"statusMsg": "查询成功",
+		"result": {
+			"name": "张三",
+			"college": "重庆工商大学",
+			"degree": "本科",
+			"startTime": "",
+			"specialty": "",
+			"graduateTime": "2010",
+			"studyResult": "毕业",
+			"degreeStyle": "普通全日制",
+			"collegeCity": "",
+			"character": "",
+			"manageDept": "",
+			"schoolType": "",
+			"collegeLevel": "",
+			"educationApproach": "",
+			"createDate": "",
+			"createYears": "0",
+			"academicianNum": "0",
+			"postDoctorNum": "0",
+			"doctorDegreeNum": "0",
+			"masterDegreeNum": "0",
+			"nationalSubjectNum": "0",
+			"studyStyle": "",
+			"is985": "N",
+			"is211": "N",
+			"collegeCategory": "普通院校",
+			"collegeType": "3"
+		}
+	}
+}
+    }
+}
+]

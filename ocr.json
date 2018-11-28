@@ -1,0 +1,40 @@
+[
+{
+  "request" :
+    {
+      "uri" : "/moco/ocr/getInfo/2",
+	  "method": "post"
+    },
+
+  "response" :
+    {
+      "text" : "<JSONObject><PATH><ocrImg>/tmp/ym/IDCard/cut/cut-1185fb1e-1527-4ccf-a684-c7d90b07c3b1.jpg</ocrImg><headImg>/tmp/ym/IDCard/head/head-95cfcbec-dbc2-4213-ab2f-112a143ed7cb.jpg</headImg></PATH><CardNo>132261198811160681</CardNo><Address>河北省保定市北市区五六东路186号</Address><Sex>女</Sex><Folk>汉</Folk><Birthday>1988年11月16日</Birthday><Name>宜小信</Name></JSONObject>"
+    }
+},
+
+{
+  "request" :
+    {
+      "uri" : "/moco/ocr/getInfo/3",
+	  "method": "post"
+    },
+
+  "response" :
+    {
+      "text" : "<JSONObject><PATH><ocrImg>/tmp/ym/IDCard/cut/cut-1185fb1e-1527-4ccf-a684-c7d90b07c3b1.jpg</ocrImg><headImg>/tmp/ym/IDCard/head/head-95cfcbec-dbc2-4213-ab2f-112a143ed7cb.jpg</headImg></PATH><ValidPeriod>20000122-20200122</ValidPeriod><IssueAuthority>子长县公安局</IssueAuthority></JSONObject>"
+    }
+},
+
+{
+  "request" :
+    {
+      "uri" : "/moco/ocr/getInfo/17",
+	  "method": "post"
+    },
+
+  "response" :
+    {
+      "text" : "<JSONObject><PATH><ocrImg>/tmp/ym/IDCard/cut/cut-1185fb1e-1527-4ccf-a684-c7d90b07c3b1.jpg</ocrImg><headImg>/tmp/ym/IDCard/head/head-95cfcbec-dbc2-4213-ab2f-112a143ed7cb.jpg</headImg></PATH><bankCardNumber>6214831238059338</bankCardNumber><bankCardType>借记卡</bankCardType><bankCardName>IC绿卡通</bankCardName><bankName>招商银行(01000000)</bankName></JSONObject>"
+    }
+}
+]
